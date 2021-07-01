@@ -1,0 +1,19 @@
+/home/dp/Music/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dp/CLionProjects/test1
+-- Caffe2: CUDA detected: 10.2
+-- Caffe2: CUDA nvcc is: /usr/local/cuda/bin/nvcc
+-- Caffe2: CUDA toolkit directory: /usr/local/cuda
+-- Caffe2: Header version is: 10.2
+-- Found cuDNN: v7.6.5  (include: /usr/local/cuda/include, library: /usr/local/cuda/lib64/libcudnn.so)
+CMake Warning at /media/dp/DATA/huihua_robot/libtorch-cxx11-abi-shared-with-deps-1.8.1+cu102/libtorch/share/cmake/Caffe2/public/cuda.cmake:198 (message):
+  Failed to compute shorthash for libnvrtc.so
+Call Stack (most recent call first):
+  /media/dp/DATA/huihua_robot/libtorch-cxx11-abi-shared-with-deps-1.8.1+cu102/libtorch/share/cmake/Caffe2/Caffe2Config.cmake:88 (include)
+  /media/dp/DATA/huihua_robot/libtorch-cxx11-abi-shared-with-deps-1.8.1+cu102/libtorch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)
+  CMakeLists.txt:10 (find_package)
+
+
+-- Autodetected CUDA architecture(s):  6.1
+-- Added CUDA NVCC flags for: -gencode;arch=compute_61,code=sm_61
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dp/CLionProjects/test1/cmake-build-debug
